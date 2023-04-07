@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Homepage from '../components/Homepage';
 import Shoe from '../components/Shoedesign';
 import Slider from '@/components/Slider';
-import { SliderData } from '@/components/SliderData';
 
 export default function Home() {
   return (
@@ -16,7 +15,7 @@ export default function Home() {
       </Head>
 
      <Homepage heading='Essemmi' message='Peak elegance at your fingertips...' /> 
-     <Slider slides={SliderData} />
+     <Slider />
     </>
   )
 }
